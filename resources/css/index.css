@@ -1,0 +1,371 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('../fonts/Abril_Fatface/AbrilFatface-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ms Madi';
+    src: url('../fonts/Ms_Madi/MsMadi-Regular.ttf') format('truetype');
+}
+ 
+/* Intro section */
+
+.intro {
+    background-image: url('../images/annie-spratt-lRcoPGrwkv0-unsplash.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    display:flex;
+}
+
+.text {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+    font-size: 40px;
+    font-weight: bold; 
+    color: rgb(255, 255, 253);
+    margin-left: 100px;
+    
+}
+
+.maintitle {
+    position: sticky;
+    top: 10px;
+    margin-bottom: 56px;
+    margin-left: 0px;
+}
+
+.title {
+    position: relative;
+    font-style: italic;
+    margin-top: 60px;
+    background-color:rgba(9, 90, 20, 0.466);
+}
+
+/* Nav section */
+
+.navbar {
+    padding: 10px 30px;
+    background-color: rgb(15, 15, 5);
+}
+
+.navbar a:link {
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+.navbar a:visited {
+    color:rgb(249, 250, 242);
+}
+
+.navbar a:hover {
+    color:rgb(35, 114, 11);
+}
+
+.navbar a:active {
+    color:rgba(225, 248, 18, 0.836);
+}
+
+.navbar li {
+    display:inline;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 5px 10px; 
+}
+
+/* Main-content */
+
+body {
+    background-image: url('../images/vincent-burkhead-LhlxYMfnTF0-unsplash.jpg');
+}
+
+/* headings */
+
+#headings {
+    border: 1px solid black;
+    background-color:white;
+    margin: 80px 60px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    float: left;
+    width: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+}
+
+.headingtext {
+    border: 1px solid black;
+    background-color:white;
+    margin-top: 60px;
+    margin-right: 100px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float: right;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+    line-height: 30px;
+}
+
+/* fontstyles */
+
+#fontstyles {
+    border: 1px solid black;
+    background-color:white;
+    margin: 160px 20px 180px 60px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float: left;
+    width: 14%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+}
+
+.fontstylestext {
+    border: 1px solid black;
+    background-color:white;
+    margin-top: 80px;
+    margin-right: 100px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float:right;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+    line-height: 30px;
+}
+
+.abff {
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.b {
+    font-size: 20px; 
+    font-family: 'Abril Fatface';
+    margin-top: 2px;
+}
+
+.a {
+    font-size: 20px; 
+    font-family: 'Abril Fatface';
+    font-style: italic;
+}
+
+.ot {
+    font-size: 30px; 
+    font-family: 'Ms Madi';
+    text-decoration: underline;
+    margin: 15px 2px;
+}
+
+.as {
+    font-size: 20px; 
+    font-family: 'Ms Madi';
+}
+
+.bs {
+    font-size: 20px; 
+    font-family: 'Ms Madi';
+    font-weight: bold; 
+}
+
+
+/* typography */
+
+#typography {
+    border: 1px solid black;
+    background-color:white;
+    margin: 450px 0px 80px -200px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float: left;
+    width: 14%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+}
+
+.typographytext {
+    border: 1px solid black;
+    background-color:white;
+    margin-top: 80px;
+    margin-right: 100px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float:right;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+    line-height: 30px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.h1 {
+    font-family: 'Timesc New Roman';
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.h2 {
+    font-family: 'Timesc New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px; 
+}
+
+.fonts {
+    font-size: 15px;
+}
+
+.para {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+/* color palettes */
+
+#colorpalettestitle {
+    border: 1px solid black;
+    background-color:white;
+    margin: 590px 0px 80px -200px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float: left;
+    width: 16%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+}
+
+.color {
+    border: 1px solid black;
+    background-color:white;
+    margin-top: 80px;
+    margin-right: 100px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float:right;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+    line-height: 30px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.green {
+    background-color:rgb(9, 90, 20);
+    padding-left: 10px;
+    color: white;
+    margin: 4px;
+}
+
+.lightgreen {
+    background-color:rgb(35, 114, 11);
+    padding-left: 10px;
+    color: white;
+    margin: 4px;
+}
+
+.uppergreen {
+    background-color:rgb(54, 161, 21);
+    padding-left: 10px;
+    color: white;
+    margin: 4px;
+}
+
+.lovelygreen {
+    background-color:rgb(88, 230, 45);
+    padding-left: 10px;
+    color: white;
+    margin: 4px;
+}
+
+/* motivation pics */
+
+#motivationtitle {
+    border: 1px solid black;
+    background-color:white;
+    margin: 400px 0px 80px -200px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float: left;
+    width: 16%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97); 
+}
+
+.motiphotos {
+    border: 1px solid black;
+    background-color:white;
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-bottom: 400px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    float:right;
+    width: 60%;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 12px 16px 16px -4px rgba(0,0,0,0.97);
+    line-height: 30px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.pic {
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/*  footer */
+
+.footer {
+    background-image: url('../images/annie-spratt-lRcoPGrwkv0-unsplash.jpg');
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    top: 2450px;
+}
+
+.me {
+    border-radius: 50%; 
+    position: center;
+    margin-left: 560px;
+}
+
+.cr {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
